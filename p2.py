@@ -11,4 +11,4 @@ cap = cv2.VideoCapture(0)
 
 while True:
     # Read the frame
-    _, img = cap.read()
+    img = cap.read()
